@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WebStockMirnaHerrador.Connect;
 
 namespace WebStockMirnaHerrador
 {
@@ -17,5 +18,10 @@ namespace WebStockMirnaHerrador
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Cnn cnn = new Cnn();
+            cnn.openConn();
+        }
     }
 }

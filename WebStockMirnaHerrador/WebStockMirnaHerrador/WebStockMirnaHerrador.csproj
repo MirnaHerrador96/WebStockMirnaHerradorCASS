@@ -6,4 +6,15 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="DAO\" />
+    <Folder Include="Forms\" />
+    <Folder Include="RSC\" />
+  </ItemGroup>
+
 </Project>
