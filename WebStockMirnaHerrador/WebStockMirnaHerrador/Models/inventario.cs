@@ -4,14 +4,14 @@ using System.Text;
 
 namespace WebStockMirnaHerrador.Models
 {
-    class inventario
+    class Inventario
     {
         private int id;
         private SucursalElectrodomestico id_sucursal_electrodomestico;
         private int cantidad_entradas_salidas;
         private string movimiento;
 
-        public inventario(int id, SucursalElectrodomestico id_sucursal_electrodomestico, int cantidad_entradas_salidas, string movimiento)
+        public Inventario(int id, SucursalElectrodomestico id_sucursal_electrodomestico, int cantidad_entradas_salidas, string movimiento)
         {
             this.id = id;
             this.id_sucursal_electrodomestico = id_sucursal_electrodomestico;
